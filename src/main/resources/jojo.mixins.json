@@ -1,0 +1,37 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.bloomhousemc.jojo.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "BoatEntityMixin",
+    "EnchantmentTargetMixin",
+    "EntityMixin",
+    "EntityRenderDispatcherMixin",
+    "HorseEntityMixin",
+    "LivingEntityMixin",
+    "MinecartEntityMixin",
+    "PigEntityMixin",
+    "PlayerEntityMixin",
+    "ServerPlayerEntityMixin",
+    "ServerWorldMixin",
+    "StriderEntityMixin",
+    "WorldChunkMixin"
+  ],
+  "client": [
+    "ClientPlayerEntityMixin",
+    "ClientWorldMixin",
+    "InGameHudMixin",
+    "InGameOverlayRendererMixin",
+    "GameRendererMixin",
+    "LivingEntityRendererMixin",
+    "ParticleAccessor",
+    "ParticleManagerMixin",
+    "PlayerEntityRendererMixin",
+    "RenderLayerAccessor",
+    "WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
